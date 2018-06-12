@@ -7,4 +7,4 @@ Create a Node class, LinkList class, and unit testing to see if functionality is
 
 ## Solution
 
-![array_binary_search](./../../assets/LinkedListVisual.jpg)
+![array_binary_search](../../../assets/LinkedListVisual.jpg)
