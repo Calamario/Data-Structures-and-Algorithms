@@ -7,4 +7,4 @@ Create a Node class, LinkList class, and unit testing to see if functionality is
 
 ## Solution
 
-![LinkedList](../../../assets/LinkedListVisual.jpg)
+![LinkedList](../../assets/LinkedListVisual.jpg)
