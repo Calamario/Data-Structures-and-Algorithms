@@ -6,4 +6,4 @@ Write a method in the LinkList Class which takes a number, k, as a parameter. Re
 
 ## Solution
 
-![LL_KthElement](../../../assets/LL_KthElement_Visual.jpg)
+![LL_KthElement](../../assets/LL_KthElement_Visual.jpg)
