@@ -6,4 +6,4 @@ Write a method in the LinkList Class which takes two Linked List and merges them
 
 ## Solution
 
-![merged](../../../assets/merge_list_visual.jpg)
+![merged](../../assets/merge_list_visual.jpg)
