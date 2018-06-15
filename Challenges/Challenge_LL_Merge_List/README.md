@@ -7,3 +7,6 @@ Write a method in the LinkList Class which takes two Linked List and merges them
 ## Solution
 
 ![merged](../../assets/merge_list_visual.jpg)
+
+## Code
+Our Whiteboarding had and error when it came to our edge cases for when the first Link List was longer than the second one. We now have solved this issue by adding a conditional after the while loop to run code specific to possible edge cases
