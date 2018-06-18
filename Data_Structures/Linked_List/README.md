@@ -3,6 +3,7 @@ Introduction to understanding Linked List.
 
 ## What Is It?
 Linked Lists are a type of data structure. It is comprised of Nodes. Nodes consist of two property, a Value and a Next. The property Next is the Node the follow. Traversing through a Linked List uses a While loop
+Some uses of Linked Lists are dynamic memory allocation, undo feature for some applications, navigating through image viewer, etc
 
 
 ## Challenge
