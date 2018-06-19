@@ -44,5 +44,20 @@ namespace Queue_with_Stack.Classes
             }
             return rtnNode;
         }
+
+        /// <summary>
+        /// Refactored the first Dequeue to not have to pop and push stuff back to s1 fro s2 after the initial dequeue. 
+        /// </summary>
+        /// <returns> the node that was first added to the Queue with Stack </returns>
+        public Node Dequeue2()
+        {
+            if (s1.Top == null)
+                return s2.Pop();
+            while (s1.Top.Next != null)
+            {
+                s2.Push(s1.Pop());
+            }
+            return s1.Pop();
+        }
     }
 }

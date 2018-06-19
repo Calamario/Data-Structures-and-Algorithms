@@ -45,7 +45,7 @@ namespace Queue_with_Stack
             //Dequeue one node at a time and show on Console
             for (int i = 0; i < 6; i++)
             {
-                Console.WriteLine($"The node that got dequeued is {myQueue.Dequeue().Value}");
+                Console.WriteLine($"The node that got dequeued is {myQueue.Dequeue2().Value}");
             }
 
         }
