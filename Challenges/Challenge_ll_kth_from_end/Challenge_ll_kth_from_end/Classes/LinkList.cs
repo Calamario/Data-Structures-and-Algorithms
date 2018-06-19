@@ -10,12 +10,18 @@ namespace Challenge_ll_kth_from_end.Classes
 
         public Node Current { get; set; }
 
+        //Constructor
         public LinkList(Node node)
         {
             Head = node;
             Current = node;
         }
 
+        /// <summary>
+        /// Take a int k that is kth from the back and return the node.
+        /// </summary>
+        /// <param name="k">unassigned int </param>
+        /// <returns>either a null or the node that is kth from the back</returns>
         public Node KthElement(uint k)
         {
             Current = Head;
@@ -37,6 +43,10 @@ namespace Challenge_ll_kth_from_end.Classes
             return Current;
         }
 
+        /// <summary>
+        /// Adds a node to the Linked List at the front
+        /// </summary>
+        /// <param name="node"> the node that is being added </param>
         public void Add(Node node)
         {
             Current = Head;
