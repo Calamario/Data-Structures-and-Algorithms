@@ -10,3 +10,4 @@ CF 401 Daily Challenge
 1. [LL - Merged List](./Challenges/Challenge_LL_Merge_List/)
 1. [Stack and Queue](./Data_Structures/Stack_and_Queue/)
 1. [S&Q - Queue with Stacks](./Challenges/Challenge_Queue_with_Stack)
+1. [S&Q - FIFO Animal Shelter](./Challenges/Challenge_FIFO_Animal_Shelter)
