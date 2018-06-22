@@ -24,7 +24,7 @@ namespace bracket_validation_test
         [InlineData("[[]()", false)]
         [InlineData("(hello[]", false)]
         [InlineData("({)[]", false)]
-        [InlineData("{][]", false)]
+        [InlineData("()[[hadjsfhkjfd]", false)]
         [InlineData("hello}bye]hello)", false)]
         public void CanReturnFalseForCorrectInput(string value, bool expected)
         {

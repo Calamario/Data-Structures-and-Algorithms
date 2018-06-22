@@ -7,7 +7,7 @@ namespace Challenge_Multi_Bracket
     {
         static void Main(string[] args)
         {
-            MultiBracketValidation("((){}[)]");
+            MultiBracketValidation("()[[]");
             
         }
 
@@ -15,6 +15,7 @@ namespace Challenge_Multi_Bracket
         {
             Queue queue = MakeBracketQueue(input);
             queue.Print();
+            Console.ReadLine();
             if (ValidateBracketEquality(queue))
             {
                 Console.WriteLine("true");
@@ -67,6 +68,10 @@ namespace Challenge_Multi_Bracket
             //do this until queue is empty
             while (queue.Front != null)
             {
+                if (queue.Front == queue.Rear)
+                {
+                    return false;
+                }
                 char checkFor = queue.Dequeue().Value;
                 char checkAgainst;
                 switch (checkFor)
@@ -94,9 +99,12 @@ namespace Challenge_Multi_Bracket
                 {
                     queue.Dequeue();
                     //return the original state of the queue without the recently founded pairs of brackets
-                    while(EndNode != queue.Rear)
+                    if (EndNode.Next != null)
                     {
-                        queue.Enqueue(queue.Dequeue());
+                        while(queue.Rear != EndNode)
+                        {
+                            queue.Enqueue(queue.Dequeue());
+                        }
                     }
                 }
                 //couldnt find the node that had the partner bracket
