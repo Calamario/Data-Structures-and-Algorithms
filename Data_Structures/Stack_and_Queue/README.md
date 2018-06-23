@@ -16,7 +16,7 @@ between two systems, programs, or prcesses. It can also be used to maintain a li
 an event to occur.
 
 ## Challenge
-Implement the Link list by creating a Node Stack, Queue class. Within the Stack and Queue class, create the following methods appropriate for each class.
+Implement the Stack and Queue by creating a Node Stack, Queue class. Within the Stack and Queue class, create the following methods appropriate for each class.
 * Push - O(1) add a Node before the Top for Stacks
 * Pop - O(1) return the Node at the Top of the stack, remove the returned node from the stack and reassign the Top. Temp is necessary
 * Peek - O(1) returns the Top of the stack.
@@ -29,5 +29,5 @@ Create a Node class, LinkList class, and unit testing to see if functionality is
 
 ## Solution
 
-![LinkedList](../../assets/Stack_visual.jpg)
-![LinkedList](../../assets/Queue_visual.jpg)
+![stack](../../assets/Stack_visual.jpg)
+![queue](../../assets/Queue_visual.jpg)
