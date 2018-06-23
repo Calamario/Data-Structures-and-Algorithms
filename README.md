@@ -12,3 +12,4 @@ CF 401 Daily Challenge
 1. [S&Q - Queue with Stacks](./Challenges/Challenge_Queue_with_Stack)
 1. [S&Q - FIFO Animal Shelter](./Challenges/Challenge_FIFO_Animal_Shelter)
 1. [S&Q - Multi Bracket](./Challenges/Challenge_Multi_Bracket)
+1. [Binary and Binary Search Tree](./Data_Structures/Tree/)
