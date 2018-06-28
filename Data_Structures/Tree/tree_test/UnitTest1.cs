@@ -130,5 +130,33 @@ namespace tree_test
 
             Assert.Equal(value, bt.Search(node100, value).Value);
         }
+
+        [Fact]
+        public void CanFindNodeInBTWithoutAdd()
+        {
+            Node node1 = new Node(1);
+            Node node2 = new Node(2);
+            Node node3 = new Node(3)
+            {
+                LeftChild = node2,
+                RightChild = node1,
+            };
+            BinaryTree bt = new BinaryTree();
+            Assert.Equal(2, bt.Search(node3, 2).Value);
+        }
+
+        [Fact]
+        public void CanFindNodeInBTWithoutAddBST()
+        {
+            Node node1 = new Node(1);
+            Node node100 = new Node(100);
+            Node node10 = new Node(10)
+            {
+                LeftChild = node1,
+                RightChild = node100,
+            };
+            BinarySearchTree bst = new BinarySearchTree();
+            Assert.Equal(100, bst.Search(node10, 100).Value);
+        }
     }
 }

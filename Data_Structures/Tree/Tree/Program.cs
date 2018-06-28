@@ -14,6 +14,9 @@ namespace Tree
 
         }
 
+        /// <summary>
+        /// Makes a Binary Search Tree and prints it to the console. Searches for the node with a value 60.
+        /// </summary>
         static void MakeBSTree()
         {
             BinarySearchTree bst = new BinarySearchTree();
@@ -35,6 +38,9 @@ namespace Tree
             Console.WriteLine(bst.Search(node100, 60).Value);
         }
 
+        /// <summary>
+        /// Makes a Binary Tree and searches for the node with the value 300.
+        /// </summary>
         static void MakeBT()
         {
             BinaryTree bt = new BinaryTree();

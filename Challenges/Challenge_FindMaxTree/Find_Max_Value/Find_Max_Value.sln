@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find_Max_Value", "Find_Max_Value\Find_Max_Value.csproj", "{4CA71E97-0A38-4384-A71F-746BC586ABAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMaxValue_Test", "FindMaxValue_Test\FindMaxValue_Test.csproj", "{3FB5E765-C036-4D0A-9A55-BD10AB06A8EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CA71E97-0A38-4384-A71F-746BC586ABAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA71E97-0A38-4384-A71F-746BC586ABAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA71E97-0A38-4384-A71F-746BC586ABAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA71E97-0A38-4384-A71F-746BC586ABAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB5E765-C036-4D0A-9A55-BD10AB06A8EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB5E765-C036-4D0A-9A55-BD10AB06A8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB5E765-C036-4D0A-9A55-BD10AB06A8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB5E765-C036-4D0A-9A55-BD10AB06A8EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8879BFFD-44DB-4B67-A9BC-F20A81CB8ECF}
+	EndGlobalSection
+EndGlobal
