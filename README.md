@@ -14,3 +14,4 @@ CF 401 Daily Challenge
 1. [S&Q - Multi Bracket](./Challenges/Challenge_Multi_Bracket)
 1. [Binary and Binary Search Tree](./Data_Structures/Tree/)
 1. [Tree - FizzBuzz Tree](./Challenges/Challenge_FizzBuzzTree)
+1. [Tree - Find Max Value](./Challenges/Challenge_FindMaxTree)
