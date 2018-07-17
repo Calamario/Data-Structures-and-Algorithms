@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge_FindRepeated", "Challenge_FindRepeated\Challenge_FindRepeated.csproj", "{1B7B0DDD-8037-4C0E-B6BC-BFA146219724}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeatedWordTest", "RepeatedWordTest\RepeatedWordTest.csproj", "{0C5D35C9-F926-42AC-B859-396BE62B4663}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B7B0DDD-8037-4C0E-B6BC-BFA146219724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7B0DDD-8037-4C0E-B6BC-BFA146219724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7B0DDD-8037-4C0E-B6BC-BFA146219724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7B0DDD-8037-4C0E-B6BC-BFA146219724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C5D35C9-F926-42AC-B859-396BE62B4663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C5D35C9-F926-42AC-B859-396BE62B4663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C5D35C9-F926-42AC-B859-396BE62B4663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C5D35C9-F926-42AC-B859-396BE62B4663}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00230662-D201-4012-8EA8-8B768517A005}
+	EndGlobalSection
+EndGlobal
