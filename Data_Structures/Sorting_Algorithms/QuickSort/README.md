@@ -10,3 +10,4 @@ less than the pivot. Once it does it swaps. And once
 the bounds cross we swap back the pivot and recursivly do 
 the same for left and right.
 
+![quicksort](../../../assets/quicksort_visual.jpg)
